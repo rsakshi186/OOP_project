@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".retailersignup">
+
+    <ImageView
+        android:id="@+id/app_logo_1"
+        android:layout_width="382dp"
+        android:layout_height="254dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo" />
+    <Button
+        android:id="@+id/retailer_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/buttons"
+        android:padding="25dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="New here? Sign up"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/retailer_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/buttons"
+        android:padding="25dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Sign in"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>
