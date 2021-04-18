@@ -20,7 +20,6 @@
         <activity android:name=".retailersignup" />
         <activity android:name=".customer_home" />
         <activity android:name=".singuppage" />
-        <activity android:name=".page5_singupactivity" />
         <activity android:name=".after_signin" />
         <activity android:name=".page4" />
         <activity android:name=".page3" />
