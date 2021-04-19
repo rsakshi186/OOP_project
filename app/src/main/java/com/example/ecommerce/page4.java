@@ -145,7 +145,7 @@ public class page4 extends AppCompatActivity {
                         {
                             Toast.makeText(page4.this, "Logged in succesfully", Toast.LENGTH_SHORT).show();
                             loadingbar.dismiss();
-                            Intent intent=new Intent(page4.this, customer_home.class);
+                            Intent intent=new Intent(page4.this,customer_home.class);
                             startActivity(intent);
                         }
                     }
@@ -263,8 +263,6 @@ public class page4 extends AppCompatActivity {
         // calling sign in method.
         signInWithCredential(credential);
     }
-
-
 }
 
 
