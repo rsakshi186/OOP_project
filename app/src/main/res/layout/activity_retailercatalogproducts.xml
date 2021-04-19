@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".retailercatalogproducts">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Choose a Category to Update"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/row_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+    <ImageView
+        android:id="@+id/bread"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/imageedit_1_3477132682"
+        />
+
+    <ImageView
+        android:id="@+id/veggie"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:src="@drawable/veggies"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/row_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/row_1"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/dairy"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:src="@drawable/dairy"
+            />
+
+        <ImageView
+            android:id="@+id/spices"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:src="@drawable/spices"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/row_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/row_2"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/chips"
+            android:layout_width="196dp"
+            android:layout_height="120dp"
+            android:src="@drawable/chips" />
+
+        <ImageView
+            android:id="@+id/cookies"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:src="@drawable/cookies"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/canned"
+        android:layout_width="wrap_content"
+        android:layout_height="131dp"
+        android:layout_below="@id/row_3"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/canned" />
+
+
+</RelativeLayout>

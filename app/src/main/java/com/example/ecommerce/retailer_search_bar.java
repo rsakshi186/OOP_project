@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class customer_home extends AppCompatActivity {
+public class retailer_search_bar extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customer_home);
+        setContentView(R.layout.activity_retailer_search_bar);
     }
 }

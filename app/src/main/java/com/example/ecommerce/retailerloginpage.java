@@ -86,7 +86,7 @@ public class retailerloginpage extends AppCompatActivity {
                         if (retailersdata.getPassword().equals(password)) {
                             Toast.makeText(retailerloginpage.this, "Logged in succesfully", Toast.LENGTH_SHORT).show();
                             loadingbar.dismiss();
-                            Intent intent = new Intent(retailerloginpage.this, customer_home.class);
+                            Intent intent = new Intent(retailerloginpage.this, retailercatalogproducts.class);
                             startActivity(intent);
                         }
                     }
